@@ -19,7 +19,7 @@
         <div class="flex flex-col items-center justify-center min-h-screen">
             <div class="flex flex-col items-center justify-center w-full max-w-7xl p-4 mx-auto text-center">
 
-                <img src="{{ asset('assets/logo/logo.png') }}" alt="Trendless" class="max-w-lg mx-auto mt-4 mb-20">
+                <img src="{{ asset('assets/logo/logo.png') }}" alt="Trendless" class="w-2/3 max-w-lg mx-auto mt-4 mb-20">
 
                 <h1 class="text-4xl font-bold">Šiuo metu atnaujiname svetainę</h1>
                 <p class="mt-4 text-lg">Atsiprašome už nepatogumus.</p>
