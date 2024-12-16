@@ -27,7 +27,7 @@
 
                 <div class="w-full grid grid-cols-3 gap-4 mt-16 text-base md:text-xs lg:text-base">
 
-                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white">
+                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white shadow-xl">
                         <h2 class="text-xl font-bold text-left">Trendless Savanoriai</h2>
                         <div class="h-32 text-left pt-4">
                             Adresas: <a href="https://maps.app.goo.gl/KCcedvckWnDLF8mZ8">Savanorių pr. 4, Vilnius</a><br />
@@ -54,7 +54,7 @@
                     </div>
 
 
-                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white">
+                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white shadow-xl">
                         <h2 class="text-xl font-bold text-left">Trendless Braškės</h2>
                         <div class="h-32 text-left pt-4">
                             Adresas: <a href="https://maps.app.goo.gl/yNDaXLEpmvu8iZ5XA">Braškių g. 2B-1, Vilnius</a><br />
@@ -78,7 +78,7 @@
 
 
 
-                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white">
+                    <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white shadow-xl">
                         <h2 class="text-xl font-bold text-left">Trendless Karvelio</h2>
                         <div class="h-32 text-left pt-4">
                             Adresas: <a href="https://maps.app.goo.gl/bqxf6khEXjN1NzpV8">B. Karvelio g. 14, Vilnius</a><br />
