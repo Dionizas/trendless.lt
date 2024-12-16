@@ -25,7 +25,7 @@
                 <p class="mt-4 text-lg">Atsiprašome už nepatogumus.</p>
 
 
-                <div class="w-full grid grid-cols-3 gap-4 mt-16 text-base md:text-xs lg:text-base">
+                <div class="w-full grid grid-cols-3 gap-8 mt-16 text-base md:text-xs lg:text-base">
 
                     <div class="col-span-3 md:col-span-1 bg-white bg-opacity-60 p-4 rounded-lg border border-[#C1C9AE] outline outline-1 -outline-offset-2 outline-white shadow-xl">
                         <h2 class="text-xl font-bold text-left">Trendless Savanoriai</h2>
