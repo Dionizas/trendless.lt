@@ -12,7 +12,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                castoro: ['Castoro', 'Tahoma'],
+                work: ['Work Sans', 'Tahoma'],
             },
         },
     },

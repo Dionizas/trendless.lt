@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html, body, table, section, div, input, select, textarea {
+    @apply font-work text-[#4A635C];
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-castoro;
+
+}
+
+a:hover {
+    @apply text-blue-500;
+}
