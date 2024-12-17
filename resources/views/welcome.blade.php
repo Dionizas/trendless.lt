@@ -82,7 +82,7 @@
                         <h2 class="text-xl font-bold text-left">Trendless Karvelio</h2>
                         <div class="h-32 text-left pt-4">
                             Adresas: <a href="https://maps.app.goo.gl/bqxf6khEXjN1NzpV8">B. Karvelio g. 14, Vilnius</a><br />
-                            Telefonas: <a href="tel:+370 600 12345">+370 600 12345</a><br />
+                            Telefonas: <a href="tel:+370 600 12345">+370 644 81181</a><br />
                             El. paštas: <a href="mailto:b@trendless.lt">b@trendless.lt</a><br />
                             Darbo laikas: I-V 9:00-20:00
                         </div>
