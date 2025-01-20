@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="h-10 mt-4 mb-8">
-                            Šventiniu laikotarpiu: 12-23 - 12-29<br>Braškių klinika nedirbs.
+
                         </div>
 
                         <div class="h-60 md:h-40 mt-4 -mx-4 -mb-4 rounded-b-lg overflow-hidden">
