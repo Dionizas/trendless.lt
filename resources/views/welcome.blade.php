@@ -60,7 +60,19 @@
                             Adresas: <a href="https://maps.app.goo.gl/yNDaXLEpmvu8iZ5XA">Braškių g. 2B-1, Vilnius</a><br />
                             Telefonas: <a href="tel:+37061559700">+370 615 59700</a><br />
                             El. paštas: <a href="mailto:b@trendless.lt">b@trendless.lt</a><br />
-                            Darbo laikas: I-V 9:00-20:00
+
+                            <table>
+                                <tr>
+                                    <td>Darbo laikas:</td>
+                                    <td>I-V 9:00-20:00</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>VI pagal išankstinę registraciją</td>
+                                </tr>
+                            </table>
+
+                             
                         </div>
 
                         <div class="h-10 mt-4 mb-8">
