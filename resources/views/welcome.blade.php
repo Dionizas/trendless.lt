@@ -63,12 +63,12 @@
 
                             <table>
                                 <tr>
-                                    <td>Darbo laikas:</td>
+                                    <td class="pe-1">Darbo laikas:</td>
                                     <td>I-V 9:00-20:00</td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td>VI pagal išankstinę registraciją</td>
+                                    <td class="pe-1"></td>
+                                    <td>VI - Išankstinės registracijos</td>
                                 </tr>
                             </table>
 
