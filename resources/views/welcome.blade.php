@@ -10,10 +10,6 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -28,6 +24,57 @@
 
     </head>
     <body class="min-h-screen bg-cover bg-center" style="background-image: url('{{ asset('assets/bg/body.jpg') }}');">
+
+
+        <header class="fixed w-full p-2 z-10">
+            <div class="glass-tooth w-full py-2 px-4">
+
+                <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+
+                    <a href="#" class="text-white">
+                        <img src="{{  asset('assets/logo/logo-white.png') }}" alt="logo" class="h-12">
+                    </a>
+
+                    <nav class="hidden lg:flex space-x-2">
+                        <a href="#">
+                            Pradžia
+                        </a>
+                        <a href="#">
+                            Straipsniai
+                        </a>
+                        <a href="#" class="active">
+                            Registracija
+                        </a>
+                        <a href="#">
+                            Parduotuvė
+                        </a>
+                        <a href="#">
+                            Paslaugos
+                        </a>
+                        <a href="#">
+                            Kontaktai
+                        </a>
+                    </nav>
+
+                    <nav class="flex lg:hidden">
+                        <a href="#" class="text-white">
+                            <img src="{{  asset('assets/menu.png') }}" alt="Meniu" class="h-6 w-6">
+                            <div aria-label="status" class="hidden absolute top-0 right-0 status border-none status-md text-white bg-white"></div>
+                        </a>
+                    </nav>
+
+
+                </div>
+
+
+            </div>
+        </header>
+
+
+
+
+
+
 
         <div class="flex flex-col items-center justify-center min-h-screen">
             <div class="flex flex-col items-center justify-center w-full max-w-7xl p-4 mx-auto text-center">
