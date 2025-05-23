@@ -2,8 +2,7 @@
 @import 'tailwindcss';
 
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
+
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
@@ -55,6 +54,7 @@
     --noise: 0;
 }
 
+@plugin "@iconify/tailwind4";
 
 @theme {
     --font-sans: 'Work Sans', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -68,19 +68,11 @@ html, body, table, section, div, input, select, textarea {
 }
 
 
-
 h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
 
 }
 
-a:hover {
-    @apply text-blue-500;
-}
-
-
-
-
 
 
 .glass-tooth {
@@ -106,72 +98,75 @@ a:hover {
 }
 
 
-.glass-mini {
-    @apply border-none rounded-2xl
 
 
-}
-.glass-mini {
-    backdrop-filter: blur(10px);
-    background-color: rgba(29, 29, 24, 0.10);
-    background-image: linear-gradient(
-            135deg,
-            oklch(100% 0 0 / 30%) 0%,
-            oklch(0% 0 0 / 0%) 50%
-        ),
-        linear-gradient(
-            2deg,
-            oklch(100% 0 0 / 2%) 45%,
-            oklch(0% 0 0 / 0%) 25%
-        );
-    box-shadow: 0 0 0 1px oklch(100% 0 0 / 20%) inset,
-        0 0 0 2px oklch(0% 0 0 / 5%);
-    text-shadow: 0 1px oklch(0% 0 0 / 5%);
-}
-.glass-mini:hover {
-    background-color: rgba(29, 29, 24, 0.20);
-    box-shadow: 0 0 0 1px oklch(100% 0 0 / 30%) inset,
-    0 0 0 2px oklch(0% 0 0 / 5%);
-}
-.glass-mini:hover::before {
-    @apply absolute -top-1 -right-1 block w-2.5 h-2.5 rounded-full bg-white content-['*'] overflow-hidden text-white;
+header .navbar .menu a {
+    @apply text-shadow-xs text-shadow-white
 }
 
 
-nav a {
-    @apply px-3 py-2 text-white relative
 
+.trendless-straipsnis-intro {
+    @apply col-span-2 leading-7;
 }
-nav a.active {
-    @apply text-white/70
+.trendless-straipsnis-intro h2 {
+    @apply text-2xl font-bold my-4 text-justify xl:text-center;
 }
-nav a:hover {
-    @apply border-none rounded-2xl
-}
-nav a:hover {
-    backdrop-filter: blur(20px);
-    background-color: rgba(29, 29, 24, 0.50);
-    background-image: linear-gradient(
-            135deg,
-            oklch(100% 0 0 / 30%) 0%,
-            oklch(0% 0 0 / 0%) 100%
-        ),
-        linear-gradient(
-            2deg,
-            oklch(100% 0 0 / 2%) 45%,
-            oklch(0% 0 0 / 0%) 25%
-        );
-    box-shadow: 0 0 0 1px oklch(100% 0 0 / 20%) inset,
-        0 0 0 2px oklch(0% 0 0 / 5%);
-    text-shadow: 0 1px oklch(0% 0 0 / 5%);
+.trendless-straipsnis-intro p {
+    @apply text-justify xl:text-center;
 }
 
-nav a:hover .status {
-    @apply block;
+
+.trendless-straipsniai-item {
+    @apply w-full grid grid-cols-1 xl:grid-cols-3 gap-x-4 gap-y-4 items-center justify-center
 }
 
-nav a:hover::before {
-    @apply absolute -top-1 -right-1 block w-2.5 h-2.5 rounded-full bg-white content-['*'] overflow-hidden text-white;
+
+.trendless-straipsnis {
+    @apply text-justify leading-7;
+}
+.trendless-straipsnis p {
+    @apply mb-4;
+}
+.trendless-straipsnis h3 {
+    @apply text-xl font-bold mt-6 mb-4;
+}
+.trendless-straipsnis h4 {
+    @apply text-lg font-normal mt-4 mb-4;
 }
 
+.trendless-straipsnis ul {
+    @apply list-disc pl-7 mb-4;
+}
+.trendless-straipsnis ol {
+    @apply list-decimal pl-7 mb-4;
+}
+
+
+.trendless-straipsnis-image {
+    @apply w-full col-span-1 rounded-xl !border-1 !border-[#C1C9AE] outline -outline-offset-2 outline-white/70 
+    transition duration-300 ease-in-out
+    hover:rotate-x-12 hover:rotate-y-12 hover:-rotate-z-6
+}
+
+.trendless-full-image {
+    @apply w-full rounded-xl !border-1 !border-[#C1C9AE] outline -outline-offset-2 outline-white/70 
+}
+
+
+
+.trendless-kainorastis h2 {
+    @apply text-2xl font-bold my-4 text-left;
+}
+
+.trendless-kainorastis table {
+    @apply table table-md border-separate !rounded-xl !border !border-[#C1C9AE] outline -outline-offset-2 outline-white/70 mb-10;
+}
+.trendless-kainorastis table tr {
+    @apply odd:bg-white/10 even:bg-white/20 hover:bg-white/30;
+
+}
+.trendless-kainorastis table tr td {
+    @apply last:text-right last:max-w-24 last:w-24;
+}
 
