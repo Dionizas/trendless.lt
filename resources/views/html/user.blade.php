@@ -28,8 +28,7 @@
 
 
         <header class="drawer fixed w-full p-2 z-10">
-            <label for="my-drawer-3" class="hidden">Meniu</label>
-            <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+            <input id="my-drawer-3" type="checkbox" title="Navigation" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <div class="navbar glass w-full max-w-7xl py-2 px-4 mx-auto rounded-xl !border-1 !border-[#C1C9AE] outline -outline-offset-2 outline-white/50 shadow-lg">
                     <a href="/" class="min-w-[180px] my-2 mx-2 flex-1">
