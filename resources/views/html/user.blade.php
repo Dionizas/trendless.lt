@@ -10,8 +10,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="build/assets/app-CqflisoM.js" />
-        <script type="module" src="/build/assets/app-nGZjZaR7.css"></script>
+        <link rel="stylesheet" href="/assets/app-BSrmCmNP.js" />
+        <script type="module" src="/assets/app-CpLax59s.css"></script>
 
 
         <!-- Google Tag Manager -->
