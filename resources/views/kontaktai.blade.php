@@ -35,7 +35,7 @@
                         <div class="h-10 mt-4 mb-8">
                             <a href="https://serveonline.lt/b605ecdc-81b6-4ad3-89c3-a1f963fc1507/company"
                             class="inline-block rounded border border-[#C49B80] outline -outline-offset-2 outline-white/50 bg-[#C1C9AE] text-white px-4 py-2 hover:bg-[#99AD87] hover:text-white">
-                                Registruotis vizitui
+                                Registruotis internetu
                             </a>
                         </div>
 
@@ -70,7 +70,7 @@
                             <a href="https://serveonline.lt/2f9f13b7-7849-43aa-b8b8-0e7cc2a0491c/company"
                             class="inline-block rounded border border-[#C49B80] outline -outline-offset-2 outline-white/50
                             bg-[#C1C9AE] text-white px-4 py-2 hover:bg-[#99AD87] hover:text-white">
-                                Registruotis vizitui
+                                Registruotis internetu
                             </a>
                         </div>
 
@@ -98,7 +98,7 @@
                             <a href="https://serveonline.lt/29e38c39-aefb-4837-8e82-a2fcc05c1250/company"
                             class="inline-block rounded border border-[#C49B80] outline -outline-offset-2 outline-white/50
                             bg-[#C1C9AE] text-white px-4 py-2 hover:bg-[#99AD87] hover:text-white">
-                                Registruotis vizitui
+                                Registruotis internetu
                             </a>
                         </div>
 
