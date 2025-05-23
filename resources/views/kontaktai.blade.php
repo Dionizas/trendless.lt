@@ -84,7 +84,6 @@
                     </div>
 
 
-
                     <div class="col-span-3 md:col-span-1 bg-white/60 p-4 rounded-lg border border-[#C1C9AE] outline -outline-offset-2 outline-white shadow-xl">
                         <h2 class="text-xl font-bold text-left">Trendless Karvelio</h2>
                         <div class="h-32 text-left pt-4">

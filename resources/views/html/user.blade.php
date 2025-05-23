@@ -28,11 +28,12 @@
 
 
         <header class="drawer fixed w-full p-2 z-10">
+            <label for="my-drawer-3" class="hidden">Meniu</label>
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <div class="navbar glass w-full max-w-7xl py-2 px-4 mx-auto rounded-xl !border-1 !border-[#C1C9AE] outline -outline-offset-2 outline-white/50 shadow-lg">
                     <a href="/" class="min-w-[180px] my-2 mx-2 flex-1">
-                        <img src="{{  asset('assets/logo/logo.png') }}" alt="logo" class="h-12">
+                        <img src="{{  asset('assets/logo/logo.png') }}" alt="Trendless odontologijos klinikos" class="h-12">
                     </a>
                     <div class="hidden flex-none lg:block">
                         <ul class="menu menu-horizontal text-lg">
