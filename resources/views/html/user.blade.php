@@ -10,8 +10,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
+        <link rel="stylesheet" href="build/assets/app-CqflisoM.js" />
+        <script type="module" src="/build/assets/app-nGZjZaR7.css"></script>
 
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
