@@ -10,8 +10,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="/assets/app-BSrmCmNP.js" />
-        <script type="module" src="/assets/app-CpLax59s.css"></script>
+        <link rel="stylesheet" href="/assets/app-CpLax59s.css" />
+        <script type="module" src="/assets/app-BSrmCmNP.js"></script>
 
 
         <!-- Google Tag Manager -->
