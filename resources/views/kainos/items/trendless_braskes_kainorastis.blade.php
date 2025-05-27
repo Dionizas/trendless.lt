@@ -31,7 +31,7 @@
                         </tr>
                         <tr>
                             <td>Dentalinė rentgeno nuotrauka</td>
-                            <td>10</td>
+                            <td>5</td>
                         </tr>
                         <tr>
                             <td>Galvos šoninė rentgenograma</td>
@@ -110,7 +110,7 @@
                         </tr>
                         <tr>
                             <td>Koferdamas</td>
-                            <td>5</td>
+                            <td>10</td>
                         </tr>
                     </tbody>
                 </table>
