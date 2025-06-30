@@ -52,6 +52,7 @@
     /* effects */
     --depth: 1;
     --noise: 0;
+
 }
 
 @plugin "@iconify/tailwind4";
@@ -59,6 +60,21 @@
 @theme {
     --font-sans: 'Work Sans', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     --font-serif: 'Castoro', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+    --animate-uoga: uoga 15s ease infinite;
+
+    @keyframes uoga {
+        0%, 100% {
+            background-size: 200% 200%;
+            background-position: left center;
+        }
+        50% {
+            background-size: 150% 400%;
+            background-position: right center;
+        }
+    }
+
+
 }
 
 
@@ -69,7 +85,7 @@ html, body, table, section, div, input, select, textarea {
 
 
 h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    @apply font-serif tracking-wider font-normal;
 
 }
 
@@ -169,4 +185,9 @@ header .navbar .menu a {
 .trendless-kainorastis table tr td {
     @apply last:text-right last:max-w-24 last:w-24;
 }
+
+.form-submitted button {
+    @apply opacity-25;
+}
+
 

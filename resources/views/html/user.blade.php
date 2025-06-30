@@ -10,8 +10,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="/assets/app-CpLax59s.css" />
-        <script type="module" src="/assets/app-BSrmCmNP.js"></script>
+
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
 
         <!-- Google Tag Manager -->
@@ -65,6 +65,53 @@
         @yield('content')
 
 
+        <!--
+        <section class="w-full pb-8 px-4">
+            <div class="max-w-7xl mx-auto px-8 py-12 rounded-lg border border-[#405850] outline -outline-offset-2 outline-white/50 shadow-xl bg-linear-to-br from-[#405850] via-[#708f84] to-[#405850] animate-uoga block xl:flex gap-x-8 gap-y-4">
+
+
+                <div class="w-full lg:w-1/3">
+
+                    <h2 class="text-2xl md:text-3xl font-bold text-base-300 mb-4">Sekite mus</h2>
+
+
+                    <a href="https://www.facebook.com/btrendless" target="_blank" class="icon-[circum--facebook] w-10 h-10 text-white/70 transition-all duration-200 hover:text-white hover:rotate-28"></a>
+
+                    <a href="https://www.linkedin.com/company/trendless-dental/" target="_blank" class="icon-[circum--linkedin] w-10 h-10 text-white/70 transition-all duration-200 hover:text-white hover:rotate-28"></a>
+
+                    <a href="https://www.instagram.com/trendless_dental/" target="_blank" class="icon-[circum--instagram] w-10 h-10 text-white/70 transition-all duration-200 hover:text-white hover:rotate-28"></a>
+
+
+
+                </div>
+
+
+
+
+                <div class="divider lg:divider-horizontal"></div>
+
+
+
+
+                <div class="w-full lg:grow">
+
+                    <h2 class="text-xl md:text-3xl text-base-300 mb-4">Prenumeruokite naujienas</h2>
+
+                    <p class="text-base-100 mb-6 text-center">Gaukite naujausią informaciją apie mūsų paslaugas, akcijas ir straipsnius tiesiai į savo el. paštą.</p>
+
+                    <form action="#" method="POST" class="flex xl:flex-row items-center justify-center gap-4">
+                        @csrf
+                        <input type="email" name="email" placeholder="Įveskite savo el. paštą" class="input bg-white/80 rounded border-2 border-[#C49B80] !outline !-outline-offset-2 !outline-white focus:border-green-900 shadow-xl w-full md:w-1/2" required>
+                        <button type="submit" class="btn btn-primary font-semibold rounded border border-[#C49B80] outline -outline-offset-2 outline-white/50 shadow-xl">Prenumeruoti</button>
+                    </form>
+
+
+
+                </div>
+
+            </div>
+        </section>
+        -->
 
     </body>
 </html>
